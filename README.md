@@ -177,7 +177,9 @@ This will open the **interactive Allure dashboard** in your browser.
 - Browser: Google Chrome
 - Headless mode is enabled by default in CI/CD environments.
 
-**💡 Skills Demonstrated**
+---
+
+## 💡 Skills Demonstrated
 This project highlights a wide range of QA Automation and Software Engineering skills:
 - Behavior-Driven Development (BDD) with Behave and Gherkin syntax (Given-When-Then scenarios).
 - Test Automation for Web UI using Selenium WebDriver and the Page Object Model (POM) pattern.
