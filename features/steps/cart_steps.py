@@ -19,4 +19,5 @@ def step_add_product(context):
 
 @then('the cart badge should show "1"')
 def step_verify_cart(context):
-    assert context.inventory.get_cart_count() == "1"
+    count = context.inventory.get_cart_count()
+    assert count == "1"
