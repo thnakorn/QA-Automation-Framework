@@ -161,13 +161,58 @@ This will open the **interactive Allure dashboard** in your browser.
 
 ---
 
-## Example Allure Report
+### Example Allure Report
 
 **Allure Overview:**
 ![Allure Overview](docs/images/allure/overview.png)
 
 **Failed Scenario with Screenshot:**
 ![Allure Failed Scenario](docs/images/allure/failed_scenario.png)
+
+---
+
+## 🔄 CI/CD Integration (GitHub Actions)
+
+This project includes a **CI/CD pipeline** using **GitHub Actions**.  
+The pipeline is automatically triggered on every **push** or **pull request** to the `main` branch.
+
+### 1. What the pipeline does
+- ✅ Sets up Python and installs dependencies.  
+- ✅ Runs Behave tests with **Allure** integration.  
+- ✅ Uploads raw Allure results (`reports/allure`) as artifacts.  
+- ✅ Generates the **Allure HTML report**.  
+- ✅ Publishes the HTML report automatically to **GitHub Pages**.
+
+### 2. Workflow file
+The configuration is defined in:  
+```
+.github/workflows/ci.yml
+```
+
+### 3. Example workflow run
+On every push/PR to `main`:
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run Behave with Allure
+behave
+
+# 3. Generate report
+allure generate reports/allure -o reports/allure-report --clean
+```
+
+### 4. Accessing reports
+After the workflow completes, you can:
+- Download the **Allure raw results** as artifacts.  
+- Access the **interactive Allure report** published on **GitHub Pages**:  
+  ```
+  https://<your-username>.github.io/<your-repo>/
+  ```
+
+> ℹ️ Note: You must enable **GitHub Pages** in your repository settings, with `gh-pages` as the source branch.
+
+📌 With this CI/CD integration, the framework ensures **continuous testing**, **reporting visibility**, and a **professional workflow** ready for team collaboration.
 
 ---
 
