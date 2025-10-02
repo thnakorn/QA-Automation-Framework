@@ -1,6 +1,6 @@
 from behave import given, when, then
 from src.pages.sauce_login_page import SauceLoginPage
-from src.pages.sauce_inventory_page import SauceInventoryPage
+from src.pages.sauce_inventory_page import InventoryPage
 
 
 @given("I am on the Sauce Demo login page")
@@ -12,7 +12,7 @@ def step_open_login(context):
 @when('I log in to Sauce Demo with username "{username}" and password "{password}"')
 def step_login(context, username, password):
     context.page.login(username, password)
-    context.inventory = SauceInventoryPage(context.browser)
+    context.inventory = InventoryPage(context.browser)
 
 
 @then("I should see the Sauce Demo inventory page")
