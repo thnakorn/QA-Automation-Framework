@@ -177,6 +177,18 @@ This will open the **interactive Allure dashboard** in your browser.
 - Browser: Google Chrome
 - Headless mode is enabled by default in CI/CD environments.
 
+**💡 Skills Demonstrated**
+This project highlights a wide range of QA Automation and Software Engineering skills:
+- Behavior-Driven Development (BDD) with Behave and Gherkin syntax (Given-When-Then scenarios).
+- Test Automation for Web UI using Selenium WebDriver and the Page Object Model (POM) pattern.
+- Python development best practices: clean structure, reusable classes, environment configuration with .env.
+- Allure Reports integration: rich test reporting with screenshots, page source, and URLs attached on failures.
+- Error handling and debugging: evidence hooks in environment.py for failed steps.
+- Cross-platform compatibility: works locally, in Docker, and ready for CI/CD (GitHub Actions).
+- Code quality tooling: linting and formatting with Flake8, Black, and isort.
+- Version control best practices: feature branches, pull requests, and clear commit messages.
+- Scalability in testing: prepared for integration with SauceLabs for cloud-based execution.
+
 ---
 
 ## 📫 Contact
