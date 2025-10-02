@@ -1,5 +1,8 @@
 ﻿# QA Automation Framework – Python + Behave
 
+[![Live demo of Report](https://img.shields.io/badge/Allure-Report-blue)](https://petudeveloper.github.io/QA-Automation-Framework/)
+
+
 ## 🌟 Overview
 This is a **Python-based QA Automation Framework** designed for **web application testing** using **Behave (BDD)** and **Selenium WebDriver**.  
 It follows a **Page Object Model (POM)** structure for maintainable and scalable tests, and integrates **Allure reports** for clear test reporting.
@@ -102,8 +105,18 @@ behave features/home.feature
 
 ## 📈 CI/CD Integration
 
-- GitHub Actions or any CI can run behave and generate Allure reports.
-- Dockerfile included for containerized execution.
+- This project includes a **CI/CD pipeline** using **GitHub Actions**.  
+- The pipeline is automatically triggered on every **push** or **pull request** to the `main` branch.
+
+### 🔗 Live Allure Report
+👉 [View the latest Allure Report](https://petudeveloper.github.io/QA-Automation-Framework/)
+
+### What the pipeline does
+- ✅ Sets up Python and installs dependencies.  
+- ✅ Runs Behave tests with **Allure** integration.  
+- ✅ Uploads raw Allure results (`reports/allure`) as artifacts.  
+- ✅ Generates the **Allure HTML report**.  
+- ✅ Publishes the HTML report automatically to **GitHub Pages**.
 
 ---
 
