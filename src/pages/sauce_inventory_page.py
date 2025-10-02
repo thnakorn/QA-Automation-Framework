@@ -21,7 +21,7 @@ class InventoryPage:
 
     def get_cart_count(self):
         """Wait until the cart badge is visible, then return its text"""
-        wait = WebDriverWait(self.driver, 5)
+        wait = WebDriverWait(self.driver, 15)
         element = wait.until(
             EC.visibility_of_element_located(self.cart_badge)
         )
