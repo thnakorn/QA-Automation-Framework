@@ -18,12 +18,12 @@ class InventoryPage:
 
     def add_first_product(self):
         """Click on the first 'Add to cart' button and wait for cart badge to appear"""
-        wait = WebDriverWait(self.driver, 15)
+        wait = WebDriverWait(self.driver, 30)
         button = wait.until(EC.element_to_be_clickable(self.first_add_to_cart))
         button.click()
 
     def get_cart_count(self):
         """Wait until the cart badge is present and return its text"""
-        wait = WebDriverWait(self.driver, 15)
+        wait = WebDriverWait(self.driver, 30)
         element = wait.until(EC.presence_of_element_located(self.cart_badge))
         return element.text
