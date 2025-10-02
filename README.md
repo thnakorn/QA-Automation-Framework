@@ -161,6 +161,16 @@ This will open the **interactive Allure dashboard** in your browser.
 
 ---
 
+## Example Allure Report
+
+**Allure Overview:**
+![Allure Overview](docs/images/allure/overview.png)
+
+**Failed Scenario with Screenshot:**
+![Allure Failed Scenario](docs/images/allure/failed_scenario.png)
+
+---
+
 ## 📌 Notes
 
 - Recommended Python version: 3.11+
