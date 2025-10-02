@@ -107,6 +107,60 @@ behave features/home.feature
 
 ---
 
+## 📊 Allure Reports Integration
+
+This framework integrates with **Allure** for rich test reporting.
+
+### 1. Configuration
+The integration is handled via `behave.ini`:
+
+```ini
+[behave]
+format = allure_behave.formatter:AllureFormatter
+outfiles = reports/allure
+```
+
+- `format` → runs the Allure formatter.  
+- `outfiles = reports/allure` → saves Allure raw results into this folder.  
+
+### 2. Running tests with Allure
+Run your tests as usual:
+
+```bash
+behave
+```
+
+The results will be stored in `reports/allure`.
+
+### 3. Viewing the report
+To view the Allure report locally you need **Allure CLI**:
+
+- **macOS (Homebrew):**
+  ```bash
+  brew install allure
+  ```
+- **Windows (Scoop or Chocolatey):**
+  ```powershell
+  scoop install allure
+  # or
+  choco install allure
+  ```
+- **Linux (Debian/Ubuntu):**
+  ```bash
+  sudo apt-get install allure
+  # or download from GitHub releases
+  ```
+
+Then run:
+
+```bash
+allure serve reports/allure
+```
+
+This will open the **interactive Allure dashboard** in your browser.
+
+---
+
 ## 📌 Notes
 
 - Recommended Python version: 3.11+

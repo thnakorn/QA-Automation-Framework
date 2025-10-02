@@ -11,4 +11,4 @@ Feature: Example Domain
   Scenario: Verify header on Example page
     Given I open the Example page
     When I check the Example header
-    Then header should be "Example Domain"
+    Then header should be "Fail Example Domain"
