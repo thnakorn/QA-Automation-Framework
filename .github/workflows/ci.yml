@@ -38,6 +38,7 @@ jobs:
 
   generate-report:
     needs: tests
+    if: always()
     runs-on: ubuntu-latest
     permissions:
       contents: write
