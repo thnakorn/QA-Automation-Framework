@@ -7,3 +7,5 @@ Feature: About page
     Given I open the about page
     When I check the page title
     Then it should be "About Us"
+    When I check the header text
+    Then it should be "Example Domain"
